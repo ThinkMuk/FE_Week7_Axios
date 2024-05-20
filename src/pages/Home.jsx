@@ -18,7 +18,6 @@ const Home = () => {
       .then((res) => setUsersInfo(res.data.data))
       .catch((e) => console.log(e));
   }, []);
-  console.log(usersInfo);
   return (
     <>
       <h2>User List</h2>
